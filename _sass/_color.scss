@@ -1,0 +1,100 @@
+ @import "variables";
+
+/*! 
+ * COLOR SYSTEM 
+ */
+
+.black{
+  background-color:$black !important;
+}
+.white{
+  background-color:#ffffff !important;
+}
+.off-white{
+  background-color:#f5f5f5 !important;
+}
+.blue{
+  background-color:$gpblue !important;
+}
+.red{
+  background-color:$gpred !important;
+}
+.green{
+  background-color:$gpgreen !important;
+}
+.grey{
+  background-color:$gpgrey !important;
+}
+.yellow{
+  background-color:$gpyellow !important;
+}
+.orange{
+  background-color:$gporange !important;
+}
+.dark-blue{
+  background-color:$gpdarkblue !important;
+}
+.dark-red{
+  background-color:$gpdarkred !important;
+}
+.dark-green{
+  background-color:$gpdarkgreen !important;
+}
+.dark-grey{
+  background-color:$gpdarkgrey !important;
+}
+
+/*! Text colors */
+.txt-black{
+  color:$black !important;
+}
+.txt-white{
+  color:#ffffff !important;
+}
+.txt-off-white{
+  color:#f0f0f0 !important;
+}
+.txt-blue{
+  color:$gpblue !important;
+}
+.txt-red{
+  color:$gpred !important;
+}
+.txt-green{
+  color:$gpgreen !important;
+}
+.txt-grey{
+  color:$gpgrey !important;
+}
+.txt-yellow{
+  color:$gpyellow !important;
+}
+.txt-orange{
+  color:$gporange !important;
+}
+.txt-dark-blue{
+  color:$gpdarkblue !important;
+}
+.txt-dark-red{
+  color:$gpdarkred !important;
+}
+.txt-dark-green{
+  color:$gpdarkgreen !important;
+}
+.txt-dark-grey{
+  color:$gpdarkgrey !important;
+}
+.txt-light-green{
+  color:$gplightgreen !important;
+}
+
+/*! Opacity style */
+@for $i from 1 through 10{
+  .opa-#{$i} {
+    opacity: 0.1 * $i !important;
+  }
+}
+
+/*!
+ * END OF COLOR SYSTEM 
+ */
